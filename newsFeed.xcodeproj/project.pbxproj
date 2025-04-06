@@ -11,7 +11,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		53D1D23A2D8CA6FA00A5EEE9 /* Exceptions for "newsFeed" folder in "newsFeed" target */ = {
+		538277242D904BBC005B4D43 /* Exceptions for "NewsFeed" folder in "newsFeed" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -21,12 +21,12 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		53D1D22A2D8CA6F800A5EEE9 /* newsFeed */ = {
+		5382771E2D904BBC005B4D43 /* NewsFeed */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				53D1D23A2D8CA6FA00A5EEE9 /* Exceptions for "newsFeed" folder in "newsFeed" target */,
+				538277242D904BBC005B4D43 /* Exceptions for "NewsFeed" folder in "newsFeed" target */,
 			);
-			path = newsFeed;
+			path = NewsFeed;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -45,7 +45,7 @@
 		53D1D21F2D8CA6F800A5EEE9 = {
 			isa = PBXGroup;
 			children = (
-				53D1D22A2D8CA6F800A5EEE9 /* newsFeed */,
+				5382771E2D904BBC005B4D43 /* NewsFeed */,
 				53D1D2292D8CA6F800A5EEE9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,7 +74,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				53D1D22A2D8CA6F800A5EEE9 /* newsFeed */,
+				5382771E2D904BBC005B4D43 /* NewsFeed */,
 			);
 			name = newsFeed;
 			packageProductDependencies = (
@@ -149,9 +149,9 @@
 				INFOPLIST_FILE = newsFeed/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -176,9 +176,9 @@
 				INFOPLIST_FILE = newsFeed/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
