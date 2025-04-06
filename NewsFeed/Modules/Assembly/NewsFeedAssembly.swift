@@ -8,11 +8,11 @@
 import UIKit
 
 final class NewsFeedAssembly {
-  func createModule(coordinator: NewsFeedCoordinator) -> UIViewController & NewsFeedPresenterInput {
+  func createModule() -> UIViewController & NewsFeedPresenterInput {
     let factory = NewsFeedFactory()
     let interactor = NewsFeedInteractor()
     let view = NewsFeedView()
-    let presenter = NewsFeedPresenter(moduleView: view, factory: factory, interactor: interactor, coordinator: coordinator)
+    let presenter = NewsFeedPresenter(moduleView: view, factory: factory, interactor: interactor)
     
     factory.output = presenter
     interactor.output = presenter

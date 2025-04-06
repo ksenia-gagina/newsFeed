@@ -17,19 +17,15 @@ final class NewsFeedPresenter: UIViewController {
   let moduleView: UIView & NewsFeedViewInput
   let factory: NewsFeedFactoryInput
   let interactor: NewsFeedInteractorInput
-  let coordinator: NewsFeedCoordinator
-  private let topHedlinesService: TopHedlinesServiceProtocol = TopHedlinesService()
   
   init(
     moduleView: UIView & NewsFeedViewInput,
     factory: NewsFeedFactoryInput,
-    interactor: NewsFeedInteractorInput,
-    coordinator: NewsFeedCoordinator
+    interactor: NewsFeedInteractorInput
   ) {
     self.moduleView = moduleView
     self.factory = factory
     self.interactor = interactor
-    self.coordinator = coordinator
     super.init (nibName: nil, bundle: nil)
   }
   
